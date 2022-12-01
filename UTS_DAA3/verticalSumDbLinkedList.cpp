@@ -61,7 +61,7 @@ void verticalSumDoublyLLPrint(treeNode *root) {
   // buat linked list node baru 
   linkedListNode* sum = new linkedListNode(0, nullptr, nullptr);
 
-  // memanggil fungsi untuk menghitug nilai masing-masing vertical sum
+  // memanggil fungsi untuk menghitung nilai masing-masing vertical sum
   verticalSumDoublyLL(root, sum);
 
   // membuat pointer doubly linked list akan menunjuk ke node pertama yang ada pada list
